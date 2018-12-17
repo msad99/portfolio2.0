@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background: url(../pictures/Background.jpg);
+    padding-left: 50px;
+    padding-right: 50px;
+    height: auto;
+    margin: auto auto;
+}
+.main {
+    border: 1px rgba(63,177,179,0.4) solid;
+    padding: 20px 15px;
+    background-color: rgba(58,220,234, 0.7);
+    height: 1050px;
+}
+.body {
+    display: block;
+    background-color: rgba(240, 248, 255, 0.7);
+}
+.main p {
+    font-size: 110%;
+    font-family: Verdana, "sans-serif";
+    font-style: normal;
+    font-weight: 400;
+}
+.main h1 {
+    text-align: center;
+}
+h1 {
+}
+.header {
+    text-align: center;
+    height: 50px;
+    background-color: rgba(240, 248, 255, 0.5);
+}
+.footer {
+    height: 50px;
+    background-color: rgba(240, 248, 255, 0.5);
+}
+a {
+    font-family: Cambria;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    padding: 20px 20px;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #333333;
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}
+a:active {
+    color: #333333;
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}

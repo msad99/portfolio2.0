@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="da">
+	<head>
+	<meta charset="UTF-8">
+	<title>Sweetbot</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+  $('div.dropdown').each(function() {
+    var $dropdown = $(this);
+
+    $("a.dropdown-link", $dropdown).click(function(e) {
+      e.preventDefault();
+      $div = $("div.dropdown-container", $dropdown);
+      $div.toggle();
+      $("div.dropdown-container").not($div).hide();
+      return false;
+    });
+
+});
+    
+  $('html').click(function(){
+    $("div.dropdown-container").hide();
+  });
+});
+	</script>
+	</head>
+
+	<body>
+<nav>
+      <div class="navbar">
+    <div class="logo"><a href="index.html"><img src="images/Logo.png" alt=""></a></div>
+    <div class="udreBar">
+          <div class="bar">
+        <div class="stykke"> <img src="images/trekant.png" alt=""> </div>
+        <div class="desktop"> <a href="omOs.html">Om os</a> </div>
+        <div class="desktop"> <a href="kontakt.html">Kontakt</a> </div>
+        <div class="desktop"> <a href="#pakker">Pakker</a> </div>
+        <div class="desktop"> <a href="projekter.html">Projekter</a> </div>
+        <div class="desktop"> <a id="hotbot" href="hotbotIndex.html">Hotbot</a> </div>
+        <div id="dropdown-1" class="dropdown dropdown-processed burger"> <a class="dropdown-link" href="#"><img id="burger" src="images/burger.png" alt="options"></a>
+              <div class="dropdown-container" style="display: none;">
+            <ul>
+                  <li><a href="hotbotIndex.html">Hotbot</a></li>
+                  <li><a href="projekter.html">Projekter</a></li>
+                  <li><a href="#pakker">Pakker</a></li>
+                  <li><a href="kontakt.html">Kontakt</a></li>
+                  <li><a href="omOs.html">Om os</a></li>
+                </ul>
+          </div>
+            </div>
+      </div>
+        </div>
+  </div>
+    </nav>
+<div id="udreGrid" class="udreGrid grid">
+      <div id="grid" class="grid grid-pad">
+    <div id="bar" class="bar">
+          <div class="hide-on-mobile">
+        <div class="col-2-12 bar midt">
+              <div class="content"> </div>
+            </div>
+        <div class="col-2-12 bar midt">
+              <div class="content"> <a href="index.html"> </a>
+            <div class="centered"> </div>
+          </div>
+            </div>
+        <div class="col-2-12 bar midt">
+              <div class="content"> <a href="index.html"> </a>
+            <div class="centered"> </div>
+          </div>
+            </div>
+        <div class="col-3-12 bar">
+              <div class="content"> <a href="index.html"> </a>
+            <div class="centered"> </div>
+          </div>
+            </div>
+      </div>
+        </div>
+    <div id="mission" class="col-1-1">
+          <div class="content"> <img src="images/Banner.jpg" alt="">
+        <div class="mission">
+              <h1>Vi perfektionerer den digitale del af din forretning</h1>
+            </div>
+      </div>
+        </div>
+    <div class="punkter">
+          <div class="col-4-12">
+        <div class="content">
+              <h1> Webudvikling </h1>
+              <div>
+            <p>Vi er jeres digitale partner, uanset hvad jeres næste digitale projekt måtte være. Vi er her for at optimere jeres forretningsmæssige potentiale og støtte jer i digitaliseringsprocessen. Vi udvikler, designer, integrerer, markedsfører og projektstyrer – vi er et full-service bureau, der tager ansvar fra start til slut.</p>
+          </div>
+            </div>
+      </div>
+          <div class="col-4-12">
+        <div class="content">
+              <h1> Digital Security </h1>
+              <div>
+            <p>Digitaliseringen griber om sig. Det skaber en masse muligheder, men også helt nye udfordringer for borgere, virksomheder og myndigheder. I takt med, at vores interaktion og kommunikation bliver netbaseret, forøges risikoen for læk og misbrug af vores følsomme data. Kriminelle har i høj grad flyttet deres aktiviteter over på nettet, mens stater indsamler data og overvåger det digitale liv.</p>
+          </div>
+            </div>
+      </div>
+          <div class="col-4-12">
+        <div class="content">
+              <h1> Branding </h1>
+              <div>
+            <p> Med en branding strategi skaber du en stærkere position på markedet, så nye kunder bliver nemmere og billigere at tiltrække, samtidig med at nuværende kunder bliver mindre tilføjelige til at skifte leverandør. Ligeledes hjælper et stærkt brand til at tiltrække nye medarbejdere.</p>
+          </div>
+            </div>
+      </div>
+        </div>
+    <div class="pakker">
+          <div class="col-4-12 pakke sweetbot-pakker">
+        <div id="pakker" class="content">
+              <h2>Lille Pakke</h2>
+              <p>Til firmaer hvis hjemmeside primære funktion er portefølje baseret (Galleri, kontakt info o.l.). Inkluderer hjemmesidedesing, hosting og support tilknyttet i hvad der svare til 2 arbejdstimer om måneden.
+</p><div class="bunden"><h3>Pris: Oprettelse: 5000 Kr. Derefter pr måned: 450 kr.</h3></div>
+            </div>
+      </div>
+          <div class="col-4-12 pakke sweetbot-pakker">
+        <div class="content">
+              <h2>Mellem Pakke</h2>
+              <p> Inkluderer mulighed for særlige funktioner på hjemmesiden samt digital markedsføring. 
+Vi sørger for at designe hjemmesiden, hosting og har support i hvad der svare til 4 arbejdstimer om måneden.  
+</p>
+			<h3 class="bunden">Pris: Oprettelse 15000. Derefter pr måned: 1500.</h3>
+            </div>
+      </div>
+          <div class="col-4-12 pakke sweetbot-pakker">
+        <div class="content">
+              <h2>Stor Pakke</h2>
+              <p>Vi skræddersyer en branding strategi og visuel identitet til jer, samt implementerer disse til jeres hjemmeside. I får tilmeld mulighed for optimal digital sikkerhed og vi står for den digitale markedsføring i samråd med jer.</p>
+			<h3 class="bunden">Pris: 30000 kr.. Derefter pr måned: 3500 kr.</h3>
+            </div>
+      </div>
+        </div>
+   <div id="footer" class="col-1-1 footer">
+		<div class="col-8-12 links">
+			<p  id="tlf-nr"><a class="text-white" href="tel:004512345678">Tlf.: +45 12345678 </a> </p>
+          <p  id="mail-text"><a class="text-white" href="mailto:kontakt@sweetbot.dk">Kontakt@Sweetbot.dk</a> </p>
+          <a href="tel:004512345678"><img class="kontakt-icon1 text-center" src="./icons/tlfart.png" alt="phone icon"></a> <a href="mailto:kontakt@sweetbot.dk"><img class="kontakt-icon2 text-center" src="./icons/mailart.png" alt="mail icon"></a>
+			</div>
+			<div class="col-4-12 icons">
+			<a href="https://www.facebook.com/" target="_blank"><img class="fb" src="./icons/fbart.png" alt="facebook icon" width="100" height="100"></a> <a href="https://www.instagram.com/" target="_blank"><img class="insta" src="./icons/instaart.png" alt="instagram icon" width="100" height="100"> </a> <a href="https://www.linkedin.com/" target="_blank"><img class="linkedin" src="./icons/linkart.png" alt="linkedin icon" width="100" height="100" ></a>
+			</div>
+			<div class="col-1-1 copyright" >
+			<p> &copy; All rights reserved</p>
+			</div>
+	</div>
+  </div>
+    </div>
+</body>
+</html>

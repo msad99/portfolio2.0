@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+/*body block */
+body {
+    margin: auto;
+    background-image: url(pictures/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.main {
+}
+/*links block */
+.links {
+    text-align: center;
+    padding-top: 150px;
+    display: block;
+}
+a {
+    font-family: Cambria;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    padding: 20px 20px;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #333333;
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}
+a:active {
+    color: #333333;
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}
