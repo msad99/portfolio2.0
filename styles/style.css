@@ -134,8 +134,8 @@ body{
 }
 @media only screen and (min-width: 321px) and (max-width: 480px){
 	li a{
-		margin-left: 15px;
-		margin-right: 15px;
+		margin-left: 11px;
+		margin-right: 11px;
 	}
 	#index{
 		background-position: bottom right !important;
@@ -156,6 +156,10 @@ body{
 		display: inline-block;
 		margin-left: 10px;
 	}
+	#mot{
+		margin: auto;
+		font-size: 25px; 
+	}
 }
 @media only screen and (min-width: 781px){
 	li a {
@@ -171,5 +175,14 @@ body{
 	.social img{
 		display: inline-block;
 		margin-left: 10px;
+	}
+	#mot{
+		margin: auto;
+		font-size: 40px;
+	}
+}
+@media only screen and (min-width: 1025px){
+	#mot{
+		font-size: 50px;
 	}
 }
