@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Sweetbot</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+  $('div.dropdown').each(function() {
+    var $dropdown = $(this);
+
+    $("a.dropdown-link", $dropdown).click(function(e) {
+      e.preventDefault();
+      $div = $("div.dropdown-container", $dropdown);
+      $div.toggle();
+      $("div.dropdown-container").not($div).hide();
+      return false;
+    });
+
+});
+    
+  $('html').click(function(){
+    $("div.dropdown-container").hide();
+  });
+});
+	</script>
+	</head>
+
+	<body>
+<div class="navbar">
+      <div class="logo"><a href="index.html"><img src="images/Logo.png" alt=""></a></div>
+      <div class="udreBar">
+    <div class="bar">
+          <div class="stykke"> <img src="images/trekant.png" alt=""> </div>
+          <div class="desktop active"> <a href="omOs.html">Om os</a> </div>
+          <div class="desktop"> <a href="kontakt.html">Kontakt</a> </div>
+          <div class="desktop"> <a href="index.html#pakker">Pakker</a> </div>
+          <div class="desktop"> <a href="projekter.html">Projekter</a> </div>
+          <div class="desktop"> <a id="hotbot" href="hotbotIndex.html">Hotbot</a> </div>
+          <div id="dropdown-1" class="dropdown dropdown-processed burger"> <a class="dropdown-link" href="#"><img id="burger" src="images/burger.png" alt="options"></a>
+        <div class="dropdown-container" style="display: none;">
+              <ul>
+            <li><a href="hotbotIndex.html">Hotbot</a></li>
+            <li><a href="projekter.html">Projekter</a></li>
+            <li><a href="index.html#pakker">Pakker</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="omOs.html">Om os</a></li>
+          </ul>
+            </div>
+      </div>
+        </div>
+  </div>
+    </div>
+		<main>
+<div id="udreGrid" class="udreGrid grid">
+      <div id="grid" class="grid grid-pad">
+    <div id="bar" class="bar">
+          <div class="hide-on-mobile">
+        <div class="col-2-12 bar midt">
+              <div class="content"> </div>
+            </div>
+        <div class="col-2-12 bar midt">
+              <div class="content"> <a href="index.html"> </a>
+            <div class="centered"> </div>
+          </div>
+            </div>
+        <div class="col-2-12 bar midt">
+              <div class="content"> <a href="index.html"> </a>
+            <div class="centered"> </div>
+          </div>
+            </div>
+        <div class="col-3-12 bar">
+              <div class="content"> <a href="index.html"> </a>
+            <div class="centered"> </div>
+          </div>
+            </div>
+      </div>
+        </div>
+    <div class="col-6-12 ceo">
+          <div class="content">
+        <div class= "ceoBillede"> <img src="images/Alvin Jilmand.jpg" alt="Alvin"> </div>
+        <h2>Alvin Jilmand</h2>
+        <p>Ceo for salg og marketing</p>
+      </div>
+        </div>
+    <div class="col-6-12 ceo">
+          <div class="content">
+        <div class= "ceoBillede"> <img src="images/Chuck Verath.jpg" alt="Chuck - Animal ?"> </div>
+        <h2>Chuck Verath</h2>
+        <p>Ceo for webudvikling</p>
+      </div>
+        </div>
+    <div class="col-3-12 medarbejder">
+          <div class="content"> <img src="images/Trine Torbjorn.jpg" alt="Trine">
+        <h3>Trine Torbjorn</h3>
+        <p>Assisterende salgsmanager</p>
+      </div>
+        </div>
+    <div class="col-3-12 medarbejder">
+          <div class="content"> <img src="images/Frederik Dersda.jpg" alt="Frederik">
+        <h3>Frederik Dersda</h3>
+        <p>Marketingsekspert</p>
+      </div>
+        </div>
+    <div class="col-3-12 medarbejder">
+          <div class="content"> <img src="images/Thomas Testa.jpg" alt="Thomas - ? Taxdermist">
+        <h3>Thomas Testa</h3>
+        <p>Webudvikler</p>
+      </div>
+        </div>
+    <div class="col-3-12 medarbejder">
+          <div class="content"> <img src="images/Lucy Werstadt.jpg" alt="Lucy">
+        <h3>Lucy Werstadt</h3>
+        <p>Webudvikler</p>
+      </div>
+        </div>
+    <div id="footer" class="col-1-1 footer">
+		<div class="col-8-12 links">
+			<p  id="tlf-nr"><a class="text-white" href="tel:004512345678">Tlf.: +45 12345678 </a> </p>
+          <p  id="mail-text"><a class="text-white" href="mailto:kontakt@sweetbot.dk">Kontakt@Sweetbot.dk</a> </p>
+          <a href="tel:004512345678"><img class="kontakt-icon1 text-center" src="./icons/tlfart.png" alt="phone icon"></a> <a href="mailto:kontakt@sweetbot.dk"><img class="kontakt-icon2 text-center" src="./icons/mailart.png" alt="mail icon"></a>
+			</div>
+			<div class="col-4-12 icons">
+			<a href="https://www.facebook.com/" target="_blank"><img class="fb" src="./icons/fbart.png" alt="facebook icon" width="100" height="100"></a> <a href="https://www.instagram.com/" target="_blank"><img class="insta" src="./icons/instaart.png" alt="instagram icon" width="100" height="100"> </a> <a href="https://www.linkedin.com/" target="_blank"><img class="linkedin" src="./icons/linkart.png" alt="linkedin icon" width="100" height="100" ></a>
+			</div>
+			<div class="col-1-1 copyright" >
+			<p> &copy; All rights reserved</p>
+			</div>
+	</div>
+  </div>
+    </div>
+			</main>
+
+</body>
+</html>

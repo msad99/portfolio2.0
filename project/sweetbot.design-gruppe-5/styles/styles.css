@@ -186,23 +186,19 @@ nav {
     z-index: 1;
 }
 .pakke {
+	position: relative;
+	display: block;
     background: #B5B2B0;/*border: thin solid #0E0C0C;*/
 }
 .sweetbot-pakker p {
+	display: block;
 	margin-left: 10px;
 	font-family: 'Lato';
 }
 
-.bunden {
-	vertical-align: bottom;
-	display: inline-block;
-	
-	
-}
-.bunden h3 {
-	text-align: center;
-}
+
 .pakke .content h2 {
+	display: block;
     text-align: center;
 	font-family: 'Lato';
 }
@@ -210,6 +206,7 @@ nav {
 	height: 180px;
 	background-color: #B5B2B0;
 	font-family: 'Lato';
+	position: relative;
 }
 .hotbot-pakker h2, h3{
 	text-align: center;
@@ -638,6 +635,11 @@ div.logo img {
 		height: auto;
 		margin-top: 8px;
 		
-	}}
+	}
+.bunden {
+	position: absolute;
+	bottom: 0;	
+	width: 100%;
+}}
 .fb , .insta , .linkedin{
 	margin-right: 20px;}
