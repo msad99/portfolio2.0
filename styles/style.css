@@ -69,7 +69,8 @@ li a {
 	display: inline-block;
 	font-family: 'Roboto Slab';
 	height: auto;
-	max-width: 100%
+	max-width: 100%;
+	text-align: justify;
 }
 .bodyimage{
 	display: inline-block;
@@ -82,9 +83,10 @@ li a {
 	max-width: 100%;
 }
 .text{
-	margin: auto;
-	max-width: 70%;
+		margin: auto;
+	max-width: 100%;
 	display: block;
+	text-align: justify;
 }
 .text h1{
 	text-align: center;
@@ -206,6 +208,9 @@ figure p{
 	}
 }
 @media only screen and (min-width: 781px){
+	.text{
+		max-width: 70%;
+	}
 	li a {
 		margin-left: 150px;
 		margin-right: 20px;
