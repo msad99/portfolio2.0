@@ -59,6 +59,29 @@ li a {
 	font-family: 'Roboto Slab';
 }
 /* Body */
+.bodytext p{
+	font-family: 'Roboto Slab';
+}
+.bodytext h1{
+	font-family: 'Roboto Slab';
+}
+.bodytext{
+	display: inline-block;
+	font-family: 'Roboto Slab';
+	height: auto;
+	max-width: 100%
+}
+.bodyimage{
+	display: inline-block;
+	float: right;
+	height: auto;
+	max-width: 100%;
+}
+.bodyimage img{
+	float: right;
+	height: auto;
+	max-width: 100%;
+}
 .text{
 	margin: auto;
 	max-width: 70%;
@@ -90,6 +113,19 @@ body{
 	font-size: 20px;
 	padding: 2% 8%;
 	
+}
+figure{
+	margin: 0px 15px 10px 25px;
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Roboto Slab';
+}
+figure p{
+	text-align: center;
+}
+.thumb img{
+	height: auto;
+	max-width: 200px;
 }
 #mot{
 	text-shadow: 2px 0px 0.5px white;
@@ -143,7 +179,7 @@ body{
 }
 @media only screen and (min-width: 481px) and (max-width: 780px){
 	li a{
-		margin-left: 90px;
+		margin-left: 70px;
 		margin-right: 20px;
 	}
 	.footer .contact {
@@ -159,6 +195,12 @@ body{
 	#mot{
 		margin: auto;
 		font-size: 25px; 
+	}
+	.bodyimage{
+		max-width: 50%;
+	}
+	.bodytext{
+		max-width: 50%;
 	}
 }
 @media only screen and (min-width: 781px){
@@ -179,6 +221,15 @@ body{
 	#mot{
 		margin: auto;
 		font-size: 40px;
+	}
+	.bodyimage{
+		max-width: 50%;
+	}
+	.bodytext{
+		max-width: 50%;
+	}
+	.bodyimage img{
+		max-width: 100%;
 	}
 }
 @media only screen and (min-width: 1025px){
