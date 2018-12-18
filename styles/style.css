@@ -78,7 +78,6 @@ li a {
 	max-width: 100%;
 }
 .bodyimage img{
-	float: right;
 	height: auto;
 	max-width: 100%;
 }
@@ -143,6 +142,10 @@ figure p{
 .footer .contact{
 	float: left;
 	font-size: 9px;
+}
+.footer .contact a{
+	text-decoration: none;
+	color: white;
 }
 .footer .contact p {
 	
@@ -227,9 +230,6 @@ figure p{
 	}
 	.bodytext{
 		max-width: 50%;
-	}
-	.bodyimage img{
-		max-width: 100%;
 	}
 }
 @media only screen and (min-width: 1025px){
