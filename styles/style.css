@@ -92,7 +92,6 @@ li a {
 .main{
   flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
   padding: 20px;
- 
 }
 #index{
 	background-image: url("../images/sidebarIndex.png");
@@ -133,7 +132,6 @@ figure p{
 .footer{
 	font-family: 'Roboto Slab';
 	flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-  	padding: 20px;
 	height: auto;
 	width: 100%;
 	background-color: #333;
@@ -141,6 +139,7 @@ figure p{
 }
 .footer .contact{
 	float: left;
+	margin-left: 20px;
 	font-size: 9px;
 }
 .footer .contact a{
@@ -212,7 +211,7 @@ figure p{
 		margin-right: 20px;
 	}
 	.footer .contact {
-		font-size: 15px;
+		font-size: 15px !important;
 	}
 	.footer .copyright{
 		font-size: 18px;
