@@ -88,7 +88,7 @@ li a {
 	display: block;
 	text-align: justify;
 }
-.text h1{
+.text h1, h2{
 	text-align: center;
 }
 .main{
@@ -110,8 +110,7 @@ body{
 }
 .body h2{
 	font-family: 'Roboto Slab';
-	font-size: 20px;
-	padding: 2% 8%;
+	
 	
 }
 figure{
@@ -128,6 +127,8 @@ figure p{
 	max-width: 200px;
 }
 #mot{
+	font-size: 20px;
+	padding: 2% 8%;
 	text-shadow: 2px 0px 0.5px white;
 }
 /* Footer */
